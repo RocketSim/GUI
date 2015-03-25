@@ -1,0 +1,25 @@
+user assigns the run a name
+Define output file path
+Define what the control file path is. File that the programme checks for live runtime commands 
+Space for some additional sim commands.
+Stage1 assigned name
+Stage1 requirements before entering defined here
+Body1 assigned name
+Body1.PropName assigned. Repeated for all properties and bodies
+Stage2 assigned name
+Stage2 requirements before entering defined here
+Bodies redefined here.
+
+If a body has the same property as a body in the previous stage but the property is not known during parsing
+i.e. the mass of a body stays the same between stages. A command which assigns the property a pointer to the 
+same memory adress to another property needs to exist
+
+
+File read in line by line
+anything in " " will be used as the values for properties on the same line
+i.e. Body1.Mass "10" will assign 10 to the mass of Body1.
+Spaces will be ignored
+\n will be required at the end of each line
+
+For human readabillity the structure outlined here. Although it would not be difficult to make it so that the lines 
+could be in any order. However, I imagine debugging will be much harder.
