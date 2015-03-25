@@ -1,0 +1,27 @@
+SimulationName "UserCreatedName"
+ControlFilePath "\\C:someDirectory\File.txt"
+OutputFilePath "\\C:someDirectory\File.txt"
+ConditComm1 "SomeConditionalCommandStuff"
+Stage1 "UserCreatedName"
+Body1 "UserCreatedName"
+Body1.prop1 "PropertyValue"
+Body1.prop2 "PropertyValue"
+.
+.
+.
+Body2 "UserCreatedName"
+.
+.
+.
+Stage2 "UserCreatedName
+Stage2.Cond "ConditionToBeTrueBeforeEnteringStage"
+Body1 "UserCreatedName"
+Body1.prop1 "PropertyValue"
+Body1.prop2 "PropertyValue"
+.
+.
+.
+Body2 "UserCreatedName"
+.
+.
+.
